@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Os herois e a masmorra</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="inicial.png" alt="">
+            <h1 class="inicio">OS HEROIS E A MASMORRA</h1>
+            <p>Uma história escrita e programada por Felpszz</p>
+            <button class="btn-proximo" data-proximo="1">Começar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="taverna.png" alt="">
+            <p class="narrador">Você e seus dois melhores amigos estão em uma taverna bebendo e conversando sobre sua
+                última missão, quando um deles interrompe a conversa:</p>
+            <p class="ladina">-Eu tenho uma proposta. Ouvi falar em uma masmorra no fim do bosque que está abandonada,
+                cheia de tesouros antigos e, provavelmente, muito valiosos. Eu não conseguiria invadir sozinha... Mas nós três
+                conseguiríamos...</p>
+            <p class="bardo">-A gente acabou de voltar de uma masmorra, vamos descansar pelo menos uma semaninha - diz o
+                outro amigo - não é?</p>
+            <button class="btn-proximo" data-proximo="2">-Concordo, devemos descansar. A última missão foi
+                desgastante.</button>
+            <button class="btn-proximo" data-proximo="3">-Eu já estou bem. Que tal irmos amanhã de manhã?</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p class="narrador">Sua amiga se entristece, mas entende. Aparentemente ela queria muito investigar aquela
+                masmorra.</p>
+            <p class="narrador">Vocês continuam na taverna conversando. Nada melhor do que aproveitar a companhia de
+                quem realmente importa!</p>
+            <p class="morte">FIM...</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="entrada.png" alt="">
+            <p class="narrador">Vocês passam o resto do dia na taverna; de noite arrumam seus equipamentos nas
+                respectivas mochilas e vão dormir em suas camas, uma do lado da outra. De manhã vão ao encontro da tal
+                masmorra.</p>
+            <p class="narrador">Ao chegar na entrada:</p>
+            <p class="bardo">-Não sei se é uma boa ideia. Alguma coisa tá exalando uma aura terrivelmente mortal. Mesmo
+                que fiquemos ricos depois dessa masmorra, não sei se compensa. Eu ainda tenho muitas músicas para
+                produzir.</p>
+            <p class="ladina">-Essa é a graça, o perigo! Nenhum tesouro valioso vem sem suor! E se lá dentro tiver algum
+                instrumento encantado? Você vai perder essa oportunidade por bobeira?</p>
+            <p class="bardo">Ai, que droga, agora fiquei indeciso. O que você acha Nista?</p>
+            <button class="btn-proximo" data-proximo="4">-Não se preocupa, nós damos conta!</button>
+            <button class="btn-proximo" data-proximo="2">-Também estou com uma péssima impressão... Melhor
+                voltarmos!</button>
+            <button class="btn-proximo" data-proximo="5">-Não se arrisquem, eu vou sozinho...</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="corredor.png" alt="">
+            <p class="narrador">Ao entrar na masmorra, você sente um frio na espinha, mas continua andando através do
+                corredor mal iluminado e sujo. </p>
+            <p class="bardo">-Eu falei, esse lugar é perigoso. OLHA ESSE CADÁVER, que droga...</p>
+            <p class="ladina">-Fecha os olhos e continua andando que você não vê ele.</p>
+            <p class="bardo">-Hahaha. Engraçadinha.</p>
+            <p class="ladina">-No fim desse corredor parece ter uma porta. Vocês acham uma boa entrar nele, ou preferem
+                explorar o corredor?</p>
+            <button class="btn-proximo" data-proximo="6">-Já que estamos aqui, uma exploração não mata ninguém!</button>
+            <button class="btn-proximo" data-proximo="7">-Quanto mais rápido a gente atravessar, menos perigo a gente passa...</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="cela.png" alt="">
+            <p class="narrador">Vocês começam a explorar o ambiente. Acham algumas moedas, vários cadáveres dentro de
+                celas, alguns ratos vivos e mortos... Esse lugar com certeza foi abandonado há anos.</p>
+            <p class="ladina">-PESSOAL! Tava olhando essa cela, quando percebi esse tijolo fora do lugar. Atrás dessa
+                parede tem um quarto secreto...</p>
+            <p class="bardo">-Lá vem, esse lugar parece ser seguro? Se é secreto, não era para a gente estar vasculhando!
+            </p>
+            <p class="ladina">-Os quartos secretos são os melhores, e um exemplo são as catacumbas. Secretas e com
+                tesouros valiosos hihihi. Ah, e eu não tô enxergando nada. Mas é porque tá escuro, mesmo. Se quisermos
+                ver algo, é melhor entrarmos no quarto...</p>
+            <button class="btn-proximo" data-proximo="8">-Tô indo te ajudar a abrir a parede. Quer que eu leve uma
+                tocha?</button>
+            <button class="btn-proximo" data-proximo="7">-Acho melhor abandonarmos essa sala e irmos para porta no final do
+                corredor...</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p class="narrador">Você pega uma tocha e entra na cela, coloca a tocha de canto e começa a arrancar os
+                tijolos da parede...</p>
+            <p class="narrador">Depois de 5 minutos, um buraco do tamanho de uma pessoa é aberto, revelando um quarto
+                quase totalmente escuro, sendo iluminado por sua tocha e a luz da janela da cela.</p>
+            <p class="ladina">-Pronto? Podemos ir? Hmmm, droga, esqueci de pegar minha mochila. Você e o Bartô podem ir
+                na frente, eu volto já já... Beijnhos, não roubem nada sem mim!</p>
+            <p class="bardo">-Tá bom, volta logo.</p>
+            <p class="narrador"> Vocês esperam alguns minutos, para que dê tempo da garota pegar a mochila e voltar. Mas
+                com a demora, vocês se levantam e começam a ir em direção a cela.</p>
+            <p class="bardo">-Pode ir na frente, Nista, eu fico atrás de você...</p>
+            <p class="narrador">O bardo entra na cela e pega a tocha, enquanto você empunha a espada. Vocês dois seguem
+                caminho para dentro do cômodo escuro. Mas antes de observarem algo, vocês ouvem um estrondo seguido de
+                um grito feminino, provavelmente de sua amiga.</p>
+            <p class="narrador">Por instinto, você se vira para trás e vê a tocha caída no chão, seu amigo imóvel e a
+                entrada soterrada.</p>
+            <p class="bardo">-Ni- Nista... estamos presos aqui... a entrada... o que aconteceu?... Esse grito foi da
+                Leya?...</p>
+            <p class="bardo">-Leya, VOCÊ ESTÁ BEM? RESPONDA!! - ele grita desesperadamente.</p>
+            <p class="ladina">-Eu- ai- Eu estou bem... só um pouco machucada, a parede caiu em cima de mim... Droga,
+                acho que eu quebrei alguma costela... Ai- podem ir sem mim, eu vou ter que voltar para vila e ir em um
+                curandeiro...</p>
+            <p class="bardo">-Ai, caramba, graças a Merlin você está bem! Quer dizer, nem tanto... mas se cuida, não se
+                esforça muito. Vou tentar guardar algum tesouro para você ♡ </p>
+                    <button class="btn-proximo" data-proximo="9">Guardar a espada e pegar a tocha que caiu no
+                        chão</button>
+                    <button class="btn-proximo" data-proximo="10">-Que bom que ela está bem... Bardo, pega a tocha e
+                        ilumina aqui para mim, por favor.</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="aranha.png" alt="">
+            <p class="narrador">Após pegar a tocha, você escuta acima de sua cabeça um barulho amedrontador. Relutante,
+                você olha e um ser enorme de oito patas cai na sua frente, gritando um som agonizante.</p>
+            <button class="btn-proximo" data-proximo="11">Entregar a tocha para o bardo e sacar a espada - Fica atrás de
+                mim, só me ilumina, MAS FICA FORA DE PERIGO!</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="aranha.png" alt="">
+            <p class="narrador">Após se recuperar, o bardo pega a tocha e um grito amedrontador ecoa sobre suas cabeças.
+                Um barulho de queda livre soa atrás de suas costas. Ao se virar, um enorme monstro de oito patas é
+                visível, rugindo e gritando barulhos aterrorizantes que causam um arrepio na sua alma.</p>
+            <button class="btn-proximo" data-proximo="11">-Fica atrás de mim, só me ilumina, MAS FICA FORA DE
+                PERIGO!!</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="aranha.png" alt="">
+            <p class="narrador">Com a visão pertubada pela adrenalina, seus olhos analisam minuciosamente a penumbra do
+                cômodo, onde é possível identificar teias enormes em cada canto da sala, com esqueletos presos nela.</p>
+            <p class="bardo">-AAAAAAAH, EU TENHO ARACNOFOBIAAAAAA</p>
+            <p class="narrador">Sem se deixar abalar pelos surtos de seu colega e sem hesitar, você desfere um golpe em
+                um dos olhos da criatura, que grita de dor e crava uma das patas em seu ombro direito. A dor é
+                excruciante, mas você já sentiu dores piores.</p>
+            <button class="btn-proximo" data-proximo="12">-BARTÔ, ATEIA FOGO NAS TEIAS</button>
+            <button class="btn-proximo" data-proximo="13">Continuar desferindo golpes na aranha</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p class="narrador">Mesmo morrendo de medo, o bardo entendia o seu dever, isso o que tornava o mais valente
+                do trio.</p>
+            <p class="narrador">De pouco em pouco, a sala se tornava mais iluminada, o combustível eram os cadáveres de
+                humanos e animais recém mortos.</p>
+            <p class="narrador">Enquanto isso, você estava batalhando incessantemente pela morte da criatura. E ela
+                sabia que seu fim estava chegando, os ovos de seus filhotes haviam sido consumidos pelo fogo. Não
+                existia motivo para continuar brigando. A aranha para de atacar e pula na chama que lentamente dizimava
+                sua ninhada. Ela precisa de um golpe de misericórdia...</p>
+            <button class="btn-proximo" data-proximo="14">Dar o golpe final</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p class="narrador">Após uma duradoura batalha de quase meia hora, você está prestes a vencer. Com apenas
+                três patas e um olho, a criatura corre para o lado oposto, protegendo uma das paredes, onde você deduz
+                estarem os ovos da aranha.</p>
+            <p class="bardo">-Eu tive uma ideia, você consegue arremessar a tocha nesse monstro horrendo?</p>
+            <p class="narrador">Você diz que precisa tentar, seu fôlego já não para em seu pulmão, mas você precisa dar
+                esse último golpe.</p>
+            <p class="narrador">Com uma pitada de sorte e ajuda do destino, a tocha cai entre a aranha e a parede,
+                ateando fogo sobre a teia, os ovos do aracnídeo e, consequentemente, a própria criatura. Só basta um
+                último golpe de misericórdia...</p>
+            <button class="btn-proximo" data-proximo="14">Dar o golpe final</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <p class="narrador">Você começa a andar na direção do monstrengo. O barulho devastador que antes emanava de
+                suas quelíceras, agora parece ser um grito de terror. Lágrimas ácidas caem dos olhos já inexistentes da
+                criatura. </p>
+            <p class="narrador">Você levanta sua espada, a luz do fogo reflete em seus olhos, te cegando
+                momentaneamente, até você cravar a espada no centro da boca da aranha. Seu sofrimento acabou, ainda que
+                você mesmo tenha o provocado.</p>
+            <p class="narrador">No instante depois da morte do aracnídeo, um baú brilhante se materializa no meio da
+                sala enquanto você reza pela vida retirada por sua espada.</p>
+            <p class="bardo">-O que? Posso abrir esse baú, Nista?</p>
+            <button class="btn-proximo" data-proximo="15">-Vai em frente - continuar rezando.</button>
+            <button class="btn-proximo" data-proximo="17">-Não, fica de guarda e me espera - continuar rezando.</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <p class="narrador">Sem algo a temer, o bardo segue em frente e abre o baú. Uma energia caótica extravaza e
+                preenche a sala, iluminando cada canto ou fresta antes inundado em escuridão. </p>
+            <p class="bardo">-O que está acontecendo? Eu me sinto... forte? Não meu corpo, mas minha alma - diz enquanto
+                um manto preto recobre seu corpo, se ajustando em um celestial e nobre terno - ei, eu te escuto!</p>
+            <p class="narrador">A realidade se molda a partir da existência de Bartô e- calma... você me escuta?</p>
+            <p class="bardo">-Sim... Você está aqui desde quando?</p>
+            <p class="narrador">Desde sempre, mas vocês não me conheciam, somente Nista... Eu não devo me envolver na
+                história... A consciência do bardo começa a esvair, uma entidade começa a tomar conta de seu corpo.
+                Bartô cai no chão inconsciente e você não consegue sequer se mover para ajudá-lo.</p>
+            <p class="narrador">Alguns momentos depois, seu amigo se levanta com um olhar diferente, não é mais o Bartô
+                no corpo. a entidade olha para você ameaçadoramente. Não há fuga, o karma por ter matado a guardiã do
+                baú chegou.</p>
+            <button class="btn-proximo" data-proximo="16">-É o fim...</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <p class="narrador">Teimosamente, o bardo segue em frente e abre o baú. Uma energia caótica extravaza e
+                preenche a sala, iluminando cada canto ou fresta antes inundado em escuridão. </p>
+            <p class="bardo">-O que está acontecendo? Eu me sinto... forte? Não meu corpo, mas minha alma - diz enquanto
+                um manto preto recobre seu corpo, se ajustando em um celestial e nobre terno - ei, eu te escuto!</p>
+            <p class="narrador">A realidade se molda a partir da existência de Bartô e- calma... você me escuta?</p>
+            <p class="bardo">-Sim... Você está aqui desde quando?</p>
+            <p class="narrador">Desde sempre, mas vocês não me conheciam, somente Nista... Eu não devo me envolver na
+                história... A consciência do bardo começa a esvair, uma entidade começa a tomar conta de seu corpo.
+                Bartô cai no chão inconsciente e você não consegue sequer se mover para ajudá-lo.</p>
+            <p class="narrador">Alguns momentos depois, seu amigo se levanta com um olhar diferente, não é mais o Bartô
+                no corpo. a entidade olha para você ameaçadoramente. Não há fuga, o karma por ter matado a guardiã do
+                baú chegou.</p>
+            <button class="btn-proximo" data-proximo="16">-O que você fez?? Droga, é o fim...</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <p class="bardo">"I Never gonna give you up"</p>
+            <div>
+            <video controls>
+                <source src="INGGYU.mp4" type="video/mp4">
+            </video>
+            <div>
+                <p class="morte">Give up you?</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+        </div>
+        </div>
+        <div class="passo" id="passo-7">
+            <p class="narrador">Vocês chegam perto da porta, a ladina toma a frente e lentamente abre a dita cuja.</p>
+            <p class="ladina">-Fiquem para trás, nunca se sabe onde você pode mexer e onde não... Principalmente numa sala escura!</p>
+            <p class="bardo">-Agora você tá preocupada com a nossa segurança? Que engraçado.</p>
+            <p class="narrador">A garota ignora a frase, puxa uma das tochas da sala anterior e volta a seguir caminho no novo lugar</p>
+            <p class="ladina">-Tomem cuidado. Alguns pisos estão saltados e a parede parece estar fofa. Ou quem fez essa sala era incompetente, não deixou o chão reto e tem infiltração de água aqui, ou as paredes são falsas e por trás delas têm algo que possa nos matar...</p>
+            <p class="narrador">Você se pergunta como ela analisou tão rápido: com apenas um passo para dentro da sala e uma olhada ao redor, a garota já sabia algo que você levaria horas para descobrir.</p>
+            <p class="ladina">-Me sigam e prestem total atenção nos meus pés...</p>
+            <p class="narrador">Ela começa a pular de ladrilho em ladrilho, de um lado para o outro. O Bardo vai atrás dela e você fica por último.</p>
+            <p class="narrador">Você vai seguindo-a e prestanto atenção no caminho, entretanto algo tira sua atenção. A porta que vocês acabaram de entrar, se fecha em um estrondo.</p>
+            <p class="ladina">-Ignorem e continuem o caminho.</p>
+            <p class="narrador">Já era tarde, você não lembra qual era o certo... Esquerda, direita ou centro? Seus dois amigos já estão muito à sua frente, talvez perguntar não seja uma boa opção.</p>
+            <button class="btn-proximo" data-proximo="17">Esquerda</button>
+            <button class="btn-proximo" data-proximo="17">Centro</button>
+            <button class="btn-proximo" data-proximo="17">Direita</button>
+            <div>
+            <button class="btn-proximo" data-proximo="17">-Lady... Eu meio que não lembro o caminho...</button>
+        </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
