@@ -1,0 +1,61 @@
+body {
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 10%, rgba(0, 111, 153, 1) 82%, rgba(0, 169, 203, 1) 100%);
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 10px;
+}
+
+button {
+    background-color: #383838;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 70%;
+}
+
+img {
+    max-width: 50%;
+}
+
+.inicio {
+    font-weight: 700;
+}
+
+.narrador {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.ladina {
+    color: rgb(53, 185, 0);
+    font-weight: bold;
+}
+
+.bardo {
+    color: rgb(255, 174, 0);
+    font-weight: bold;
+}
+
+.morte {
+    color: rgb(112, 0, 0);
+    font-weight: bold;
+}
+
+.btn-proximo:hover {
+    background-color: #242424;
+}
